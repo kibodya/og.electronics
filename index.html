@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>arusha-og-tronics</title>
+  <style> 
+  body{background-image: url('sj.jpg');background-repeat: no-repeat;background-size: cover; background-position:0% 5%;
+    width:100%; height:10% }
+       ul li{width: 80px; float:right; text-align:center;border:1px solid black;background-color:orange;
+            opacity:0.8;font-family:arial;padding:7px; margin-right: 4px; }
+            ul li a{text-decoration: none; color:black}
+            .text{background-color:black;}
+            ul li:hover{background-color:white;}
+            section{text-align: lesft;position:absolute; left:0.5%;top:20% ;font-size:20px;font-family:arial;  }
+            marquee{text-align: center;position:fixed; left:0;top:7%;color:orange; font-size:20px;font-family:arial;
+               }
+            footer{ text-align: center;position:fixed; right:0;bottom:0;color:black; font-size:10px;font-family:arial;}
+            video{width:100%; max-width:400px} 
+           
+  
+  </style>
+  <script>
+    function showPage(pageId) {
+      var pages = document.getElementsByClassName('page');
+      for (var i = 0; i < pages.length; i++) {
+        pages[i].style.display = 'none';
+      }
+      document.getElementById(pageId).style.display = 'block';
+    }
+    
+    
+  
+  </script>
+</head>
+<body>
+   <marquee><h1>WELCOME TO OUR BUSINESS  OF ELECTRONICS DEVICES </h1></marquee>
+   <ul>
+   <li><a href="#" onclick="showPage('contact')">contact</a></li> 
+    <li><a href="#" onclick="showPage('products')">products</a></li>
+    <li><a href="#" onclick="showPage('about')">about</a></li>
+    <li><a href="#" onclick="showPage('home')">home</a></li>
+  </ul>
+  
+  <section id="home" class="page">
+    <h2>Home</h2>
+     
+      <p>Welcome to our Your One-Stop Shop for Laptops!</p>
+      <p>At our office , we are dedicated to providing you with the latest 
+        and most innovative laptops to enhance your personal<br>
+         and professional computing experience. Whether you're a student,
+         a business professional, or a gaming enthusiast, we have the perfect <br>
+         laptop to suit your needs.</p>
+         <img align="right"src="sj2.jpg"alt="sj2" width="600" height="379">
+      <h2>why Choose Us? </h2>
+      <ol>
+        <li>Extensive Laptop Collection</li>
+        <li>Expert Advice</li>
+        <li>Competitive Pricing</li>
+        <li>Quality Assurance</li>
+        <li>Secure Online Shopping</li>
+        <li>Fast and Reliable Delivery</li>
+        <li>Customer Satisfaction</li>
+      </ol>
+     
+       </section>
+  
+  <section id="about" class="page"background:url(BG.JPG)no-repeat;background-size:cover;>
+    <h2>About</h2>
+    <h2> About Our Business:</h2>
+      <p>At our company we are passionate about technology and dedicated to providing our customers with <br>
+      the best laptops available in the market. Whether you're a student, a professional, a gamer,<br>
+      or simply looking to upgrade your current device, we have a laptop for everyone.</p><br>
+      <h2>Our Mission:</h2>
+     <p>  Our mission is to make technology accessible to all, empowering individuals to stay connected,<br>
+       productive, and entertained. We strive to offer the latest laptop models, cutting-edge features, <br>
+       and excellent customer service, ensuring an exceptional shopping experience for our valued customers.<br>
+      </p>
+  </section>
+  
+  <section id="products" class="page">
+    
+     
+    <h2></h2>some of the popular laptop brands available on our platform include:</h2>
+    <img align="right"src="sj3.jpg"alt="sj2" width="600" height="400">
+    
+    <ol>
+      <b><li>HP(Hewlett-packard)</li>
+      <li>Asus</li>
+      <li>Acer</li>
+      <li>Toshiba</li>
+      <li>lenovo</li>
+      <li>dell</li>
+      <li>hp</li>
+      <li>microsoft surface</li></b>
+     <h2> open video below to understand quality of our product</h2> 
+      <video controls src="video.mp4"type="video/mp4">
+      </video><br>
+      <a href="video.mp4"download class="download-link">download video</a>
+    </ol>
+  </section>
+  
+  <section id="contact" class="page">
+    <h2>Contact</h2>
+    <p>Get in touch with us to discuss your business requirements. We'd love to hear from you!</p>
+    <p>Email: saidkibodya0@gmail.com</p>
+    <p>Phone: 0762944714</p>
+  </section>
+      
+  <footer>
+      <p>&copy; 2023 Electronics. All rights reserved.</p>
+    </footer>
+  
+  
+  <script>
+    showPage('home'); // Show the home page by default
+  </script>
+</body>
+</html>
+
